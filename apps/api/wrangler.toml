@@ -6,21 +6,21 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 APP_ENV = "production"
 APP_NAME = "LegionAuth"
-FRONTEND_URL = "https://legionauth.pages.dev"
+FRONTEND_URL = "https://legionauth-chg.pages.dev"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "legionauth-db"
-database_id = "PLACEHOLDER_DB_ID"
+database_id = "bc44b1be-5a6e-480a-96cb-d1786e58d8cd"
 
 [[kv_namespaces]]
 binding = "SESSIONS_KV"
-id = "PLACEHOLDER_KV_ID"
+id = "333f6559511f496f88fc4b2cd4ceae9d"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = "PLACEHOLDER_RL_KV_ID"
+id = "7139b2bb18df4c80926dc35008bd5f0e"
 
 [[kv_namespaces]]
 binding = "JWKS_KV"
-id = "PLACEHOLDER_JWKS_KV_ID"
+id = "41ce7d67aa664efeaf84e210065ef9c7"
