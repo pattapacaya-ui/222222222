@@ -1,0 +1,5 @@
+export { LegionAuthProvider, useLegionAuth } from './context'
+export type { LegionAuthContextValue, LegionAuthProviderProps } from './context'
+export { useAuth, useUser, useSession, useClient } from './hooks'
+export { SignIn, SignUp, UserButton, ProtectedRoute } from './components/index'
+export type { SignInProps, SignUpProps, ProtectedRouteProps } from './components/index'

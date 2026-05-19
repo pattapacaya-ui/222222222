@@ -1,0 +1,26 @@
+name = "legionauth-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+APP_ENV = "production"
+APP_NAME = "LegionAuth"
+FRONTEND_URL = "https://legionauth.pages.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "legionauth-db"
+database_id = "PLACEHOLDER_DB_ID"
+
+[[kv_namespaces]]
+binding = "SESSIONS_KV"
+id = "PLACEHOLDER_KV_ID"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "PLACEHOLDER_RL_KV_ID"
+
+[[kv_namespaces]]
+binding = "JWKS_KV"
+id = "PLACEHOLDER_JWKS_KV_ID"
